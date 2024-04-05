@@ -11,7 +11,7 @@ public class ExVetor2{
         */
         // Declaração com atribuição
         
-        double [] notasAtividades = {6.0, 8.0, 4.0, 2.0, 9.0 };
+        double [] notasAtividades = {1.0, 4.0, 4.0, 2.0, 0.0 };
         double soma = 0, media;
 
         // += -> atribuição com soma
@@ -31,7 +31,15 @@ public class ExVetor2{
          //calculando a media
         media = soma / notasAtividades.length;
         System.out.println("Media das notas: " + media);
-          
+
+        if(media > 5){
+         System.out.println("Aluno(a) aprovado para o próximo módulo!");
+        }else{
+        System.out.println("Aluno(a) reprovado para o próximo módulo!");
+        }
+        
+
+         
            }  
          }
     
