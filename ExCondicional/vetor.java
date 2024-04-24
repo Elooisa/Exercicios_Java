@@ -1,4 +1,4 @@
-public class ArrayTipoVetor {
+public class vetor {
     
     public static void main(String[] args){
 
