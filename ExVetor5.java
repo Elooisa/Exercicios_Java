@@ -27,8 +27,22 @@ public class ExVetor5{
 
            }
             
-        }
-    
+       
+
+     double resultado = soma / numeros.length;
+     String mensagem = "";
+
+     if (resultado > 25){
+        mensagem ="Prêmio Máximo";
+     }else if (resultado < 20){
+        mensagem = "Prêmio Comum";
+     }else {
+        mensagem = "Infelizmente você não recebeu o prêmio";
      }
+
+     System.out.println(mensagem + "Pontuação: " + resultado);
+
+      }
+    } 
 
 
